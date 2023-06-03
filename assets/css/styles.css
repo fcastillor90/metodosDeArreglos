@@ -1,0 +1,56 @@
+.input__task{
+    width: 70%;
+    height: 20px;
+}
+
+.btn__addtask{
+    height: 40px;
+    width: 100px;
+    background-color: rgb(19, 12, 152);
+    color: white;
+    border: 1px solid pink;
+    letter-spacing: normal;
+}
+
+.container{
+    background-color:whitesmoke;
+    padding: 2rem;
+}
+
+.container_all_task{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.separador{
+    background-color:  purple;
+    height: 3px;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+#Task{
+    width: 350px;
+    height: 2rem;
+    border: 1px solid rgb(146, 57, 57);
+    border-radius: 5px;
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+
+th, td{
+    text-align: center;
+    padding-right: 1rem;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

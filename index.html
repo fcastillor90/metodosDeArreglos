@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Todo List</h1>
+        <div class="separador"></div>
+        <p>Nueva tarea</p>
+        <div>
+            <input type="text" id="Task" class="input__task">
+            <input type="button" id="btnAdd" class="btn__addtask" value="Agregar Tarea" onclick="agregarTarea()">
+        </div>
+
+        <div class="container_all_task">
+            <section id="containerTotal">
+                <p id="total">Total:</p>
+                <p id="realizadas">Realizadas:</p>
+            </section>
+            <section id="containerListTask">
+                <table>
+                    <thead>                                                   
+                        <th>ID</th>  <!--TR es TABLE ROW-->
+                        <th>Tarea</th>
+                        <th>Completada</th>
+                        <th>Eliminar</th>                        
+                    </thead>
+                    <tbody id="table-body"> 
+                    <tr>                    
+                        <td>1</td>
+                        <td>Limpiar</td>
+                        <td><input type="checkbox" /> </td>
+                        <td><input type="button" value="X" />  </td>
+                    </tr>
+
+                    </tbody>
+                </table>
+            </section>
+        </div>
+
+
+
+        <!-- <section>
+            <div>
+                <p>Total: <span class="tareasTotal">0</span></p>
+                <p>Realizadas: <span class="tareasRealizadas">0</span></p>
+            </div>
+            <div class="tabla-container">
+                <table>
+                    <thead>
+                        <th>ID</th>
+                        <th>Tarea</th>
+
+
+                    </thead>
+                    <tbody class="listaTareas">
+                        // !sera js
+                    </tbody>
+                </table>
+            </div>
+        </section> -->
+    </div>
+
+</body>
+
+<script src="./assets/js/styles.js"></script>
+</html>
